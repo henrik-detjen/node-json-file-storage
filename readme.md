@@ -4,14 +4,14 @@
 Download this project via Github and add it manually to your project 
 or install the JSON File Storage npm / yarn package: 
 
-``npm install json-file-storage`` / 
-``yarn add json-file-storage``
+``npm install node-json-file-storage`` / 
+``yarn add node-json-file-storage``
 
-## How to use / API
+## How to Use / API
 ### Create a new Store
 ```javascript
 // load lib...
-const JSONFileStorage = require('json-file-storage').JSONFileStorage; // adjust the require path, if not installed via npm/yarn
+const JSONFileStorage = require('node-json-file-storage').JSONFileStorage; // adjust the require path, if not installed via npm/yarn
 
 // create store...
 const file_uri = __dirname + "/your-storage-name.json";
@@ -50,7 +50,7 @@ const objs = storage.getBulk(['id_1', 'id_2']); // returns an array of items fou
 const everything = storage.all(); // returns a copy of the store: [{'id_1': 'some_content', 'id_2': {bar: 'baz'}}]
 ```
 
-### Delete (Everything)
+### Remove (Everything)
 ```javascript
 // delete from store
 const bool = storage.remove('id_1'); // returns if successfull

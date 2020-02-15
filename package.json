@@ -1,5 +1,5 @@
 {
-  "name": "json-file-storage",
+  "name": "node-json-file-storage",
   "version": "1.0.0",
   "description": "A simple, lightweight node.js file storage for JSON data",
   "main": "JSONFileStorage.js",
