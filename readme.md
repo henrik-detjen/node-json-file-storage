@@ -67,4 +67,4 @@ storage.clear();
 
 
 ## Donate
-If you like the project and it saved you a while of coding, spend me a coffee (or all of your savings) to keep me motivated: [paypal.me/detjen]
+If you like the project and it saved you a while of coding, spend me a coffee (or all of your savings) to keep me motivated: [paypal.me](https://paypal.me/detjen)
