@@ -1,11 +1,12 @@
 {
   "name": "node-json-file-storage",
-  "version": "1.0.1",
+  "keywords": ["file", "storage", "json", "key-value", "key", "value", "persist", "store", "data", "save"],
+  "version": "1.0.2",
   "description": "A simple, lightweight node.js file storage for JSON data",
   "main": "JSONFileStorage.js",
   "repository": "https://github.com/henrik-detjen/node-json-file-storage",
   "author": "Henrik Detjen",
-  "license": "MIT",
+  "license": "GPL-3.0",
   "scripts": {
     "test": "mocha \"./test/*.test.js\" --exit"
   },

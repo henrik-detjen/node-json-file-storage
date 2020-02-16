@@ -1,10 +1,16 @@
-# JSON File Storage
+# Node JSON File Storage
+![npm](https://img.shields.io/npm/v/node-json-file-storage)![npm](https://img.shields.io/npm/dw/node-json-file-storage)
+![GitHub](https://img.shields.io/github/license/henrik-detjen/node-json-file-storage)
+![Snyk Vulnerabilities for npm package](https://img.shields.io/snyk/vulnerabilities/npm/node-json-file-storage)
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/henrik-detjen/node-json-file-storage/release)
+
+A simple, lightweight node.js file storage for JSON data.
 
 ## Installation
 Download this project via Github and add it manually to your project 
 or install the JSON File Storage npm / yarn package: 
 
-``npm install node-json-file-storage`` / 
+``npm i node-json-file-storage`` / 
 ``yarn add node-json-file-storage``
 
 ## How to Use / API
@@ -31,7 +37,7 @@ const id = storage.put(obj_1); // returns a random uuid 'id_1'
 const ids = storage.putBulk([obj_1, obj_2]); // returns an array of uuids: ['id_1', 'id_2']
 ```     
 
-#### A note on the use of ids
+#### A Note on the Use of IDs
 You can use the storage in db manner (auto-id) ``const id = storage.put('your_content');`` or key-value manner by wrapping your content in an object and providing your own keys in an id field ``storage.put({id:'your_key', 'your_content'})``.
 
 If you put an object with an id existing in the store, the existing and the new object will be merged, strings etc. will be replaced.
@@ -47,17 +53,17 @@ const obj = storage.get('id_1'); // returns the item or null
 const objs = storage.getBulk(['id_1', 'id_2']); // returns an array of items found: ['some_content', {bar: 'baz'}]
 
 // read the whole store
-const everything = storage.all(); // returns a copy of the store: [{'id_1': 'some_content', 'id_2': {bar: 'baz'}}]
+const everything = storage.all(); // returns a copy of the store: [{'id_1': 'some_content'}, 'id_2': {bar: 'baz'}}]
 ```
 
 ### Remove (Everything)
 ```javascript
-// delete from store
+// remove an item from store
 const bool = storage.remove('id_1'); // returns if successfull
 // or simply...
 storage.remove('id_1');
 
-// delete multiple items the store (you know why...)
+// remove multiple items from the store (you know why...)
 storage.removeBulk(['id_1', 'id_2']);
 
 // clear the whole store
