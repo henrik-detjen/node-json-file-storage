@@ -1,8 +1,9 @@
 # Node JSON File Storage
-![npm](https://img.shields.io/npm/v/node-json-file-storage)![npm](https://img.shields.io/npm/dw/node-json-file-storage)
+![npm](https://img.shields.io/npm/v/node-json-file-storage)
 ![GitHub](https://img.shields.io/github/license/henrik-detjen/node-json-file-storage)
 ![Snyk Vulnerabilities for npm package](https://img.shields.io/snyk/vulnerabilities/npm/node-json-file-storage)
-![GitHub Workflow Status](https://img.shields.io/github/workflow/status/henrik-detjen/node-json-file-storage/release)
+![npm](https://img.shields.io/npm/dt/node-json-file-storage)
+![npm](https://img.shields.io/npm/dw/node-json-file-storage)
 
 A simple, lightweight node.js file storage for JSON data.
 
