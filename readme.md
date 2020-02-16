@@ -4,6 +4,7 @@
 ![Snyk Vulnerabilities for npm package](https://img.shields.io/snyk/vulnerabilities/npm/node-json-file-storage)
 ![npm](https://img.shields.io/npm/dt/node-json-file-storage)
 ![npm](https://img.shields.io/npm/dw/node-json-file-storage)
+![Tests](https://github.com/henrik-detjen/node-json-file-storage/workflows/Node.js%20CI/badge.svg)
 
 A simple, lightweight node.js file storage for JSON data.
 
