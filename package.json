@@ -1,6 +1,17 @@
 {
   "name": "node-json-file-storage",
-  "keywords": ["file", "storage", "json", "key-value", "key", "value", "persist", "store", "data", "save"],
+  "keywords": [
+    "file",
+    "storage",
+    "json",
+    "key-value",
+    "key",
+    "value",
+    "persist",
+    "store",
+    "data",
+    "save"
+  ],
   "version": "1.0.2",
   "description": "A simple, lightweight node.js file storage for JSON data",
   "main": "JSONFileStorage.js",
