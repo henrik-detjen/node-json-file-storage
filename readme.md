@@ -19,7 +19,7 @@ or install the JSON File Storage npm / yarn package:
 ### Create a new Store
 ```javascript
 // load lib...
-const JSONFileStorage = require('node-json-file-storage').JSONFileStorage; // adjust the require path, if not installed via npm/yarn
+const JSONFileStorage = require('node-json-file-storage'); // adjust the require path, if not installed via npm/yarn
 
 // create store...
 const file_uri = __dirname + "/your-storage-name.json";

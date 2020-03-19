@@ -1,4 +1,4 @@
-const JSONFileManager = require("./JSONFileManager").JSONFileManager;
+const JSONFileManager = require("./JSONFileManager");
 const uuid = require("uuid-random");
 const fs = require("fs");
 
@@ -163,4 +163,4 @@ const persistStore = (instance) => {
 };
 
 
-module.exports = {JSONFileStorage};
+module.exports = JSONFileStorage;

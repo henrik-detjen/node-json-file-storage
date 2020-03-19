@@ -1,5 +1,5 @@
 const chai = require("chai");
-const JSONFileManager = require("../JSONFileManager").JSONFileManager;
+const JSONFileManager = require("../JSONFileManager");
 
 const assert = chai.assert;
 const file_path = __dirname + "/JSONFileManager__TEST.json";

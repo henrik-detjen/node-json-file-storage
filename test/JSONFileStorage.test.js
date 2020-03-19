@@ -1,5 +1,5 @@
 const chai = require("chai");
-const JSONFileStorage = require("../JSONFileStorage").JSONFileStorage;
+const JSONFileStorage = require("../JSONFileStorage");
 const uuid = require("uuid-random");
 const fs = require("fs");
 

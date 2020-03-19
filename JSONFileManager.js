@@ -51,4 +51,4 @@ class JSONFileManager {
 
 }
 
-module.exports = {JSONFileManager};
+module.exports = JSONFileManager;
